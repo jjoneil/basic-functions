@@ -13,17 +13,17 @@
 
 		function square(a) {
 			return(a * a);
-		}
+		};
 
 		function min (a, b) {
 			// TODO return the minimum of a and b
 			// Hint: you'll need to use "if"
 			if(b < a || b === a){
 				return b;
+			} else {
+				return a;
 			}
-
-			//return ();
-		}
+		};
 
 		// Test One
 		console.log(5 * 5 === square(5));
@@ -33,6 +33,8 @@
 		console.log(min(5, 2) === 2);
 		console.log(min(4, -4) === -4);
 		console.log(min(0, 0) === 0);
+		//my own test below
+		console.log(min(3, 3) === 3);
 	</script>
 </body>
 </html>
